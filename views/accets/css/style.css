@@ -1,0 +1,123 @@
+html{
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+/* Header Section */
+.header-section{
+    height: 665px;
+}
+.header-section > p{
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+    /* text-align: center; */
+    font-weight: bold;
+   
+}
+.header-section > p > span{
+    display: block;
+}
+.header-section > p > span:first-child{
+    display: block;
+    margin-top: 10%;
+}
+.header-section > p > span:last-child{
+    /* display: block; */
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+}
+.header-left-img{
+    float: left;
+    position: relative;
+    top: 0;
+    left: 250px;
+    z-index: 1;
+    /* background-color: red; */
+    background-color: transparent;
+}
+.header-right-img{
+    float: right;
+    position: relative;
+    top: 0;
+    right: 280px;
+    z-index: 1;
+    background-color: transparent;
+}
+.get-start{
+    display: block;
+    /* background-color: rgb(237, 139, 9) */
+}
+.get-start>p{
+    background-color: aqua;
+    margin-top: 0%;
+}
+/* CSS */
+.button-85 {
+    padding: 0.6em 4em;
+    /* padding: 4em; */
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #4b8490,
+      #68b7c7,
+      #84ebff,
+      /* #002bff, */
+      /* #7a00ff, */
+      #ff00c8,
+      #7b0061,
+      #390000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
