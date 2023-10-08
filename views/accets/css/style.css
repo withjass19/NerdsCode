@@ -1,8 +1,10 @@
-html{
+*{
     margin: 0;
     padding: 0%;
-    background-color: black;
     box-sizing: border-box;
+}
+body{
+  background-color: black;
 }
 /* Header Section */
 .header-section{
@@ -121,3 +123,6 @@ html{
     top: 0;
     border-radius: 10px;
   }
+  
+
+  
