@@ -13,19 +13,7 @@
 </head>
 
 <body class="bg-black">
-
     <main>
-        <!-- <Section>
-            <div class="container-fluid">
-                <div class="container text-white">
-                    <div class="row">
-                        <div class="col-6"></div>
-                        <div class="col-6"></div>
-                    </div>
-                </div>
-            </div>
-        </Section> -->
-
         <section class="contact">
             <div class="container-fluid my-5 py-5">
                 <div class="container bg-dark text-white p-5">
