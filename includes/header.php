@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container">
             <a href="" class="navbar-brand">
                 <span class="fw-bold fs-3">Nerds</span>

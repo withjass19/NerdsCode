@@ -1,5 +1,4 @@
 <?php
-require_once('includes/header.php');
 
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
@@ -10,9 +9,10 @@ $routes = array(
 );
 
 if (array_key_exists($url, $routes)) {
+    require_once('./includes/header.php');
     require_once($routes[$url]);
 } else {
-    echo "404 Page Not Found";
+    require_once('./views/404.php');
 }
 
 // require_once('includes/footer.php');
