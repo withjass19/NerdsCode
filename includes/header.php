@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
                     <li class="nav-item p-3">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="./views/index.php" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item p-3">
                         <a href="#" class="nav-link">Courses</a>
@@ -26,7 +26,7 @@
                         <a href="#" class="nav-link">About</a>
                     </li>
                     <li class="nav-item p-3">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="./views/contact.php" class="nav-link">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
