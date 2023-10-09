@@ -49,12 +49,12 @@
         <section class="welcome my-5 py-5">
             <div class="container-fluid my-5 py-5">
                 <div class="container text-white">
-                    <div class="row p-5">
-                        <div class="col-5 py-5">
-                            <img src="./views/accets/images/about.jpg" alt="" srcset="" width="500rem">
+                    <div class="row p-3">
+                        <div class="col-6">
+                            <img src="./views/accets/images/about.jpg" alt="" srcset="" width="600rem">
                         </div>
 
-                        <div class="col-7">
+                        <div class="col-6">
                             <p class="fw-medium px-5 my-4">Welcome to our website!</p>
                             <h3 class="px-5">Take your learning</h3>
                             <p class="fw-normal p-5 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -113,26 +113,6 @@
             </div>
         </section>
 
-
-        <!-- <section class="Testimonials">
-            <div class="container-fulid">
-                <div class="container">
-                    <h1 class="text-center mt-5">Testimonials</h1>
-                    <br><br>
-                    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                        Indicators
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        </ol>
-                </div>
-            </div>
-        </section> -->
-
         <div class="testimonials mt-5 pt-5">
             <div class="container-fluid pt-5 pb-5">
                 <div class="container">
@@ -141,10 +121,31 @@
                 </div>
                 
                 <iframe src="./includes/Reviews.php" width="100%" height="450px" frameborder="0" scrolling="no"></iframe>
-            </div>
-            
+            </div>  
         </div>
 
+        <section class="newsletter mt-5">
+            <div class="container-fluid my-5 p-5">
+                <div class="container p-5 text-white text-center">
+                    <!-- Section heading -->
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="p-3 fw-bold">Newsletter - Stay tune and <br> get the latest update</h1>
+                            <p class="px-3">We've got the solution: world-class trainig and development programs <br> developed by top universities and companies.</p>
+                        </div>
+                    </div>
+                    <form action="" class="row d-flex justify-content-center p-3 pt-4">
+                        <div class="col-5">
+                            <label for="" class="visually-hidden">Email</label>
+                            <input type="email" class="form-control p-3 ps-4" id="staticEmail2" placeholder="youremail@gmail.com">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-info p-3 fs-6 fw-medium">Get Starrted</button>
+                        </div>        
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
