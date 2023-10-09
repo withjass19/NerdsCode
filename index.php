@@ -11,6 +11,7 @@ $routes = array(
 if (array_key_exists($url, $routes)) {
     require_once('./includes/header.php');
     require_once($routes[$url]);
+    require_once('./includes/Footer.php');
 } else {
     require_once('./views/404.php');
 }
