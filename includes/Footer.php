@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <footer>
-        <div class="container-fluid bg-dark">
+    <footer class="mt-5">
+        <div class="container-fluid mt-5 bg-dark">
             <div class="container py-5">
                 <h1 class="text-center text-white">Nerds</h1>
                 <div class="row">
