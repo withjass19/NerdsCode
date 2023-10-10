@@ -129,9 +129,13 @@
                 <div class="container p-5 text-white text-center">
                     <!-- Section heading -->
                     <div class="row">
-                        <div class="col">
+                        <!-- <div class="col">
                             <h1 class="p-3 fw-bold">Newsletter - Stay tune and <br> get the latest update</h1>
                             <p class="px-3">We've got the solution: world-class trainig and development programs <br> developed by top universities and companies.</p>
+                        </div> -->
+                        <div class="col">
+                            <h1 class="p-3 fw-bold">Join Our Newsletter</h1>
+                            <p class="px-3">to get discount in all courses</p>
                         </div>
                     </div>
                     <form action="" class="row d-flex justify-content-center p-3 pt-4">
