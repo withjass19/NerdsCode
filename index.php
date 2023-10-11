@@ -3,13 +3,14 @@
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
 $routes = array(
-    'home' => 'views/index.php',
+    // Main Pages routing
+    'home' => 'views/home.php',
     'courses' => 'views/courses.php',
     'tutorial' => 'views/tutorial.php',
     'about' => 'views/about.php',
     'contact' => 'views/contact.php',
     'sign-up' => 'views/SignUp.php',
-    'sign-in' => 'views/SignIn.php'
+    'sign-in' => 'views/SignIn.php',
 );
 
 // require_once('./includes/header.php');
