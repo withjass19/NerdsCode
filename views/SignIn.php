@@ -22,31 +22,11 @@
                             <!-- <img src="./views/accets/images/about.jpg" alt="" srcset="" width="600rem"> -->
                         </div>
                         <div class="col-8 text-white">
-                            <!-- <p class="fs-2 fw-bold">Register</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, culpa?</p>
-                            <form action="" class="row g-3">
-                                <div class="col-md-12">
-                                    <label for="FirstName">First Name</label>
-                                    <input type="text" class="form-control" placeholder="First name" id="FirstName" aria-label="First name">
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="Fname">Username Name</label>
-                                    <input type="text" class="form-control" placeholder="First name" id="Fname" aria-label="First name">
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="Fname">First Name</label>
-                                    <input type="text" class="form-control" placeholder="First name" id="Fname" aria-label="First name">
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
-                                </div>
-                            </form> -->
                             <div class="container px-5 mx-5">
                                 <h1 class="text-center pt-5 fw-bold">Nerds</h1>
                                 <p class="text-center pt-2 fs-4">Sign In</p>
                                 <!-- <h2 class="text-center pt-2 fs-3">Create new account</h2> -->
-                                <form action="process_registration.php" class="p-5 pb-1 pt-3" method="POST">
+                                <form action="./Config/database/config.php" class="p-5 pb-1 pt-3" method="POST">
                                     <div class="row">
                                     <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
