@@ -5,30 +5,30 @@
     switch ($page) {
         case 'home':
             // echo "<h1 class='text-white'>HomePage</h1>";
-            echo "Home";
+            $page_title = "Home";
             break;
         case 'courses':
-            echo "Courses";
+            $page_title = "Courses";
             break;
         
         case 'tutorial':
-            echo "Tutorial";
+            $page_title = "Tutorial";
             break;
         
         case 'about':
-            echo "About";
+            $page_title = "About";
             break;
                
         case 'contact':
-            echo "Contact";
+            $page_title = "Contact";
             break;
         
         case 'sign-up':
-            echo "Sign Up";
+            $page_title = "Sign Up";
             break;
         
         case 'sign-in':
-            echo "Sign In";
+            $page_title = "Sign In";
             break;
     }
 ?>

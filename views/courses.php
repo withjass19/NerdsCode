@@ -6,6 +6,7 @@
     <title>
         <?php 
             require('./api/v1/title.php');
+            echo $page_title;
         ?>
     </title>
     <!-- <link rel="stylesheet" href="style.css"> -->
