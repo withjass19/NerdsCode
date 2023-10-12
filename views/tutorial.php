@@ -16,6 +16,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="bg-black text-white">
+<?php require_once('./includes/header.php'); ?>
     <h1>Tutorial Page</h1>
+<?php require_once('./includes/Footer.php'); ?>
 </body>
 </html>

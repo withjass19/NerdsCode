@@ -16,6 +16,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="bg-black text-white">
+<?php require_once('./includes/header.php'); ?>
 <section class="welcome my-2 py-5 ">
             <div class="container-fluid my-5 py-5">
                 <div class="container text-white">
@@ -48,5 +49,6 @@
                 </div>
             </div>
         </section>
+        <?php require_once('./includes/Footer.php'); ?>
 </body>
 </html>

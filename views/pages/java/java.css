@@ -1,0 +1,32 @@
+.start-java{
+    width: 85%;
+    height: 40em;
+    background-image: url('../../accets/images/Card1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .7;
+    filter: blur(1.4px);
+    -webkit-filter: blur(1.4px);
+    position: absolute; 
+    z-index: 0;
+}
+.start-java1{
+    width: 85%;
+    height: 40em;
+    position: absolute; 
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.start-java2{
+    width: 85%;
+    height: auto;
+    position: absolute; 
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    text-align: left;
+}

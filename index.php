@@ -11,14 +11,16 @@ $routes = array(
     'contact' => 'views/contact.php',
     'sign-up' => 'views/SignUp.php',
     'sign-in' => 'views/SignIn.php',
+    'Java' => 'views/pages/java/java.php',
+    'php' => 'views/pages/php/PagePHP.php'
 );
 
 // require_once('./includes/header.php');
 
 if (array_key_exists($url, $routes)) {
-    require_once('./includes/header.php');
+    // require_once('./includes/header.php');
     require_once($routes[$url]);
-    require_once('./includes/Footer.php');
+    // require_once('./includes/Footer.php');
 } else {
     require_once('./views/404.php');
 }

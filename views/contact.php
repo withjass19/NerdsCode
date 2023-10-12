@@ -18,6 +18,7 @@
 </head>
 
 <body class="bg-black">
+<?php require_once('./includes/header.php'); ?>
     <main>
         <section class="contact">
             <div class="container-fluid my-5 py-5">
@@ -59,6 +60,7 @@
                 </div>
             </div>
     </main>
+    <?php require_once('./includes/Footer.php'); ?>
 </body>
 
 </html>
