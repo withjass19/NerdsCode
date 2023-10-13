@@ -16,7 +16,6 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="bg-black">
-    <?php require_once('./includes/header.php'); ?>
 <!-- main page -->
     <main>
         <!-- header section-->
@@ -100,7 +99,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Web Technology using PHP</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a href="#" class="btn btn-primary">Enroll</a>
+                                    <a href="PHP" class="btn btn-primary">Enroll</a>
                                 </div>
                             </div>
                             <div class="card" style="width: 22rem;">
@@ -155,7 +154,6 @@
             </div>
         </section>
     </main>
-    <?php require_once('./includes/Footer.php'); ?>
 </body>
 
 </html>

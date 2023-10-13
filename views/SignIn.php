@@ -16,7 +16,6 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="bg-black text-white">
-<?php require_once('./includes/header.php'); ?>
     <main>
         <section class="my-2 py-5">
             <div class="contianer-fluid ps-5 pe-5">
@@ -58,6 +57,5 @@
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <?php require_once('./includes/Footer.php'); ?>
 </body>
 </html>
