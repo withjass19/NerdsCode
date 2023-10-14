@@ -45,24 +45,26 @@
                 <div class="row">
                     <div class="col start-java"></div>
                 </div>
-                <div class="row p-5 pt-0 bg-white start-java2" style="top: 85%">
-                    <div class="col-12">
-                        <ul class="nav nav-tabs" id="myDIV">
-                            <li class="nav-item">
-                                <a class="nav-link link1 active" id='link1' aria-current="page" href="#Tutorial" onclick="Action1()">Tutorial</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link2" id='link2' href="#Questions" onclick="Action2()">Questions</a>
-                            </li>
-                            <li class="nav-item link3">
-                                <a class="nav-link link3" id='link3' href="#Notes" onclick="Action3()">Notes</a>
-                            </li>
-                            <li class="nav-item link4">
-                                <a class="nav-link link4" id='link4' href="#Query" onclick="Action4()">Query?</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 pt-5 Tutorial show" id="Tutorial" name="Tutorial">
+                <div class="row p-5 pt-0 bg-white start-java2" style="top: 85%" id="starterpage">
+                    
+
+                    <!-- links -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" id='link1'>Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id='link2'>Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id='link3'>Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id='link4'>Disabled</a>
+                        </li>
+                    </ul>
+                    <!-- 1 -->
+                    <section class="col-12 pt-5 Tutorial show section" id="Tutorial" name="Tutorial">
                         <!-- <p>Introduction</p> -->
                         <h1 class="p-2"><strong>Introduction</strong></h1>
                         <h3 class="p-2"><strong>What is Java ?</strong></h3>
@@ -83,58 +85,26 @@
                                 <!-- Introduction -->
                                 <!-- What is java? -->
                                 <img src="{{accets('images/code.jpg')}}" alt="">
-                    </div>
-                    <div class="col-12 pt-5 Questions" id="Questions" >
+                    </section>
+                    <!-- 2 -->
+                    <section class="col-12 pt-5 Questions section" id="Questions" >
                         <h3>Question</h3>
-                    </div>
-                    <div class="col-12 pt-5 Notes" id="Notes" >
+                    </section>
+                    <!-- 3 -->
+                    <section class="col-12 pt-5 Notes section" id="Notes" >
                         <h3>Notes</h3>
-                    </div>
-                    <div class="col-12 pt-5 Query" id="Query">
+                    </section>
+                    <!-- 4 -->
+                    <section class="col-12 pt-5 Query section" id="Query">
                         <h3>Query</h3>
-                    </div>
+                    </section>
+
+
                 </div>
             </div>
         </div>
     </main> 
 
-    <script>
-        const link1 = document.getElementById('link1');
-        const link2 = document.getElementById('link2');
-        const link3 = document.getElementById('link3');
-        const link4 = document.getElementById('link4');
-
-        const Tutorial = document.getElementById('Tutorial');
-        const Questions = document.getElementById('Questions');
-        const Notes = document.getElementById('Notes');
-        const Query = document.getElementById('Query');
-
-        function Action1(){
-            // let link1 = document.getElementById('link1');
-            // link1.style.color = "red";
-            link1.classList.add("active");
-            link2.classList.remove("active");
-            link3.classList.remove("active");
-            link4.classList.remove("active");            
-        }
-        function Action2(){
-            link1.classList.remove("active");
-            link2.classList.add("active");
-            link3.classList.remove("active");
-            link4.classList.remove("active");
-        }
-        function Action3(){
-            link1.classList.remove("active");
-            link2.classList.remove("active");
-            link3.classList.add("active");
-            link4.classList.remove("active");
-        }
-        function Action4(){
-            link1.classList.remove("active");
-            link2.classList.remove("active");
-            link3.classList.remove("active");
-            link4.classList.add("active");
-        }
-    </script>
+    <script src="./views/accets/js/script.js"></script>
 </body>
 </html>
